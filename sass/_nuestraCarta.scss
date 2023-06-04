@@ -1,0 +1,48 @@
+$fontProject: 'Bruno Ace', cursive;
+$colorFont2: antiquewhite;
+@media screen and (min-width: 1200px){
+    #fotosCarousel{
+        width: 60%;
+    }
+}
+.piscoCarta{
+    background-image: url(../img/pisco-sour-cocktail.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    h2{
+        font-family: $fontProject;
+        font-size: xx-large;
+        color: $colorFont2;
+        padding: 10px;
+        font-weight: bolder;
+        text-align: center;
+    }
+}
+#carta{
+    text-align: center;
+    font-family: $fontProject;
+    color: $colorFont2;
+    font-size: larger;
+    padding: 20px;
+    margin-top: 5px;
+    list-style: none;
+    height: 95%;
+}
+.platos{
+    li{
+        font-size: medium;
+        list-style: none;
+        color: $colorFont2;
+    }
+}
+#reservar{
+    text-align: center;
+    padding: 20px;
+    a{
+        font-size: x-large;
+        font-weight: bold;
+        font-family: $fontProject;
+    }
+}
+

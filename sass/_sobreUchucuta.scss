@@ -1,0 +1,57 @@
+$fontProject: 'Bruno Ace', cursive;
+$colorFont1: rgba(105, 105, 105, 0.813);
+@mixin styleTextSU{
+    font-family: $fontProject;
+    text-align: center;
+}
+#chef{
+    padding: 5px;
+    text-align: center;
+}
+.chef{
+    width: 100%;
+    height: 100%;
+}
+#parrafo1SU{
+    font-size: 20px;
+    padding: 35px;
+    color: $colorFont1;
+    @include styleTextSU();
+}
+#parrafo2SU{
+    font-size: 17px;
+    padding: 20px;
+    color: rgba(40, 39, 39, 0.813);
+    @include styleTextSU();
+}
+#parrafo1SU{
+    h2{
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+    }
+}
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#sectionSU{
+    background: rgb(73,72,72);
+    background: linear-gradient(0deg, rgba(73,72,72,1) 1%, rgba(242,233,220,0.8715861344537815) 90%);
+    text-align: center;
+    .tituloVideos{
+        h2{
+            font-family: $fontProject;
+            color: $colorFont1;
+            padding: 10px;
+        }
+        #video{
+            margin-top: 10px;
+        }
+        
+    }
+}
