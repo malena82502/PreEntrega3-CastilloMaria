@@ -3,6 +3,13 @@ $colorFont2: antiquewhite;
 @media screen and (min-width: 1200px){
     #fotosCarousel{
         width: 60%;
+        font-family: $fontProject;
+    }
+}
+@media screen and (min-width: 780px){
+    .carousel-inner{
+        font-family: $fontProject;
+        font-size: 10px;
     }
 }
 .piscoCarta{
@@ -40,7 +47,7 @@ $colorFont2: antiquewhite;
     text-align: center;
     padding: 20px;
     a{
-        font-size: x-large;
+        font-size: large;
         font-weight: bold;
         font-family: $fontProject;
     }

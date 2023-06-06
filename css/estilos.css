@@ -8,24 +8,26 @@
     top: 0;
 }*/
 #titulo {
-  font-family: "Bruno Ace", cursive;
   color: #fff;
-  font-size: 20px;
   text-align: center;
   padding: 30px;
   background-image: url(https://arqueologiadelperu.com/wp-content/uploads/2018/10/tejido-paracas.jpg);
+  font-family: "Bruno Ace", cursive;
+  font-size: 20px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .navbar-nav {
   padding: 10px 30px 10px 30px;
-  font-size: 20px;
-  font-family: "Bruno Ace", cursive;
-  background-color: #2d2b2b;
+  background-image: url(https://64.media.tumblr.com/5dd8f485e514dad9af1343176ed5b557/d42ac2a8e4b56f4a-68/s500x750/f05a98c8167833e594d9dad784da71f0c67541c4.jpg);
   display: flex;
   justify-content: space-evenly;
   width: 100%;
+  font-family: "Bruno Ace", cursive;
+  font-size: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .navbar-nav a {
   color: antiquewhite;
@@ -33,7 +35,7 @@
 
 @media screen and (max-width: 480px) {
   .contactoHome .email {
-    font-size: 10px;
+    font-size: 8px;
   }
 }
 #restaurant {
@@ -54,7 +56,7 @@
   text-align: center;
 }
 #parrafoHome p a {
-  font-size: x-large;
+  font-size: large;
   font-weight: bold;
 }
 
@@ -65,6 +67,11 @@
 .peru {
   width: 100%;
   height: 100%;
+}
+
+#sectionHome {
+  background: rgb(244, 245, 246);
+  background: radial-gradient(circle, rgba(244, 245, 246, 0.5466561625) 61%, rgb(147, 218, 249) 97%);
 }
 
 .contactoHome {
@@ -113,11 +120,11 @@
 }
 
 .facebook:hover {
-  color: blue;
+  color: rgb(109, 109, 255);
 }
 
 .instagram:hover {
-  color: #d3321d;
+  color: #df8b42;
 }
 
 #chef {
@@ -142,6 +149,8 @@
   font-size: 17px;
   padding: 20px;
   color: rgba(40, 39, 39, 0.813);
+  background: rgb(246, 242, 244);
+  background: radial-gradient(circle, rgb(246, 242, 244) 68%, rgba(249, 188, 131, 0.4262079832) 93%);
   font-family: "Bruno Ace", cursive;
   text-align: center;
 }
@@ -161,22 +170,24 @@
   }
 }
 #sectionSU {
-  background: rgb(73, 72, 72);
-  background: linear-gradient(0deg, rgb(73, 72, 72) 1%, rgba(242, 233, 220, 0.8715861345) 90%);
   text-align: center;
 }
 #sectionSU .tituloVideos h2 {
   font-family: "Bruno Ace", cursive;
   color: rgba(105, 105, 105, 0.813);
-  padding: 10px;
-}
-#sectionSU .tituloVideos #video {
-  margin-top: 10px;
+  padding: 30px;
 }
 
 @media screen and (min-width: 1200px) {
   #fotosCarousel {
     width: 60%;
+    font-family: "Bruno Ace", cursive;
+  }
+}
+@media screen and (min-width: 780px) {
+  .carousel-inner {
+    font-family: "Bruno Ace", cursive;
+    font-size: 10px;
   }
 }
 .piscoCarta {
@@ -216,7 +227,7 @@
   padding: 20px;
 }
 #reservar a {
-  font-size: x-large;
+  font-size: large;
   font-weight: bold;
   font-family: "Bruno Ace", cursive;
 }
@@ -227,21 +238,19 @@
   background-size: cover;
   padding: 30px;
 }
-
-form {
-  width: 90%;
+#mainReservas form {
+  width: 100%;
   padding: 25px;
   max-width: 500px;
   font-family: "Bruno Ace", cursive;
   color: antiquewhite;
-  font-size: medium;
   margin: auto;
   background-color: rgba(28, 28, 28, 0.813);
   border-radius: 4px;
   box-shadow: 7px 13px 37px #000;
   font-size: 15px;
 }
-form h4 {
+#mainReservas form h4 {
   margin-bottom: 30px;
   text-align: center;
   font-size: 20px;
@@ -255,6 +264,7 @@ form h4 {
 }
 
 .control2 {
+  width: 100%;
   padding: 5px;
   border-radius: 4px;
   margin-bottom: 10px;
@@ -267,7 +277,7 @@ form h4 {
 
 @media screen and (max-width: 480px) {
   .parrafoContacto .email {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 #mainContacto {
@@ -280,7 +290,7 @@ form h4 {
   font-family: "Bruno Ace", cursive;
   color: antiquewhite;
   text-align: center;
-  padding: 75px;
+  padding: 70px;
 }
 .parrafoContacto h3 {
   font-size: 25px;
@@ -320,11 +330,14 @@ form h4 {
 }
 
 #accordionContacto {
-  padding: 50px;
+  margin-top: 30px;
+  background: rgb(244, 246, 244);
+  background: radial-gradient(circle, rgb(244, 246, 244) 13%, rgb(249, 218, 147) 86%);
+  padding: 30px;
 }
 #accordionContacto h3 {
   font-family: "Bruno Ace", cursive;
-  padding: 20px;
+  padding: 30px;
   color: rgba(105, 105, 105, 0.813);
   text-align: center;
   font-size: 25px;

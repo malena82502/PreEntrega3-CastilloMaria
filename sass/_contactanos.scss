@@ -5,7 +5,7 @@ $colorFont2: antiquewhite;
 @media screen and (max-width: 480px){
     .parrafoContacto{
         .email{
-            font-size: 12px
+            font-size: 10px
     } 
 }
 }
@@ -18,7 +18,7 @@ $colorFont2: antiquewhite;
     font-family: $fontProject;
     color: $colorFont2;
     text-align: center;
-    padding: 75px;
+    padding: 70px;
     h3{
         font-size: 25px;
     }
@@ -61,10 +61,13 @@ $colorFont2: antiquewhite;
     }
 } 
 #accordionContacto{
-    padding: 50px;
+    margin-top: 30px;
+    background: rgb(244,246,244);
+    background: radial-gradient(circle, rgba(244,246,244,1) 13%, rgba(249,218,147,1) 86%);
+    padding: 30px;
     h3{
         font-family: $fontProject;
-        padding: 20px;
+        padding: 30px;
         color: $colorFont1;
         text-align: center;
         font-size: 25px
