@@ -1,17 +1,22 @@
-$fontProject: 'Bruno Ace', cursive;
-$colorFont2: antiquewhite;
+@import "variables";
 @media screen and (min-width: 1200px){
     #fotosCarousel{
         width: 60%;
-        font-family: $fontProject;
     }
 }
-@media screen and (min-width: 780px){
+@media screen and (max-width: 500px){
     .carousel-inner{
-        font-family: $fontProject;
-        font-size: 10px;
+        h4{
+            display: none;
+        }
     }
 }
+/*carousel*/
+.carousel-inner{
+    font-family: $fontProject;
+    color: $colorFont1;
+}
+/*carta*/
 .piscoCarta{
     background-image: url(../img/pisco-sour-cocktail.jpg);
     background-repeat: no-repeat;
@@ -25,24 +30,25 @@ $colorFont2: antiquewhite;
         font-weight: bolder;
         text-align: center;
     }
-}
-#carta{
-    text-align: center;
-    font-family: $fontProject;
-    color: $colorFont2;
-    font-size: larger;
-    padding: 20px;
-    margin-top: 5px;
-    list-style: none;
-    height: 95%;
-}
-.platos{
-    li{
-        font-size: medium;
-        list-style: none;
+    #carta{
+        text-align: center;
+        font-family: $fontProject;
         color: $colorFont2;
+        font-size: larger;
+        padding: 20px;
+        margin-top: 5px;
+        list-style: none;
+        height: 95%;
+        .platos{
+            li{
+                font-size: medium;
+                list-style: none;
+                color: $colorFont2;
+            }
+        }
     }
 }
+/*boton reservar*/
 #reservar{
     text-align: center;
     padding: 20px;

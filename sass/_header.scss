@@ -2,15 +2,19 @@
     padding: 0;
     margin: 0;
 }
-$fontProject: 'Bruno Ace', cursive;
-$colorFont2: antiquewhite;
+@import "variables";
 /*header{
     position: sticky;
     top: 0;
 }*/
+@media screen and (max-width: 1050px){
+    .navbar-nav{
+        text-align: center;
+    }
+}
 @mixin header{
     font-family: $fontProject;
-    font-size: 20px;
+    font-size: 22px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -23,7 +27,7 @@ $colorFont2: antiquewhite;
 }
 .navbar-nav{
     padding: 10px 30px 10px 30px;
-    background-image: url(https://64.media.tumblr.com/5dd8f485e514dad9af1343176ed5b557/d42ac2a8e4b56f4a-68/s500x750/f05a98c8167833e594d9dad784da71f0c67541c4.jpg);
+    background-color: black;
     display: flex;
     justify-content: space-evenly;
     width: 100%;

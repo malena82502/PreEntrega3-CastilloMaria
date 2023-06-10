@@ -1,5 +1,5 @@
-$fontProject: 'Bruno Ace', cursive;
-$colorFont1: rgba(105, 105, 105, 0.813);
+@import "variables";
+/*párrafos y foto chef*/
 @mixin styleTextSU{
     font-family: $fontProject;
     text-align: center;
@@ -26,11 +26,13 @@ $colorFont1: rgba(105, 105, 105, 0.813);
     background: radial-gradient(circle, rgba(246,242,244,1) 68%, rgba(249,188,131,0.42620798319327735) 93%);
     @include styleTextSU();
 }
+/*animación titulo del párrafo 1*/
 #parrafo1SU{
     h2{
     animation-duration: 2s;
     animation-name: aparecer;
     animation-iteration-count: infinite;
+    padding: 10px;
     }
 }
 @keyframes aparecer {
@@ -41,6 +43,7 @@ $colorFont1: rgba(105, 105, 105, 0.813);
         opacity: 1;
     }
 }
+/*videos*/
 #sectionSU{
     text-align: center;
     .tituloVideos{
