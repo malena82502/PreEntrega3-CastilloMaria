@@ -102,7 +102,7 @@
 }
 .contactoHome p i {
   color: #2d2b2b;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .contactoHome .email {
@@ -127,9 +127,6 @@
 }
 .redesHome .instagram:hover {
   color: #df8b42;
-}
-.redesHome .twitter:hover {
-  color: #30a3bb;
 }
 
 /*whatsapp fixed*/
@@ -224,13 +221,13 @@ div.chat {
 /*carta*/
 .piscoCarta {
   background-image: url(../img/pisco-sour-cocktail.jpg);
-  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   margin-top: 10px;
 }
 .piscoCarta h2 {
   font-family: "Bruno Ace", cursive;
-  font-size: 30px;
+  font-size: xx-large;
   color: antiquewhite;
   padding: 10px;
   font-weight: bolder;
@@ -240,19 +237,16 @@ div.chat {
   text-align: center;
   font-family: "Bruno Ace", cursive;
   color: antiquewhite;
-  font-size: 25px;
+  font-size: larger;
   padding: 20px;
   margin-top: 5px;
   list-style: none;
   height: 95%;
 }
 .piscoCarta #carta .platos li {
-  font-size: 20px;
+  font-size: medium;
   list-style: none;
   color: antiquewhite;
-}
-.piscoCarta #carta .platos p {
-  font-size: 13px;
 }
 
 /*boton reservar*/
@@ -320,12 +314,12 @@ div.chat {
   margin-top: 15px;
 }
 .parrafoReservas i {
-  font-size: 40px;
+  font-size: 25px;
   color: rgba(40, 39, 39, 0.813);
 }
 .parrafoReservas a {
-  font-size: large;
-  font-weight: bold;
+  color: rgba(40, 39, 39, 0.813);
+  font-size: 25px;
   font-family: "Bruno Ace", cursive;
 }
 .parrafoReservas a:hover {
@@ -354,7 +348,7 @@ div.chat {
   font-size: 25px;
 }
 .parrafoContacto p i {
-  font-size: 20px;
+  font-size: 18px;
 }
 .parrafoContacto p a {
   text-decoration: none;
@@ -391,9 +385,6 @@ div.chat {
 .redes .instagram:hover {
   color: #df8b42;
 }
-.redes .twitter:hover {
-  color: #14606f;
-}
 
 /*accordion preguntas frecuentes*/
 #accordionContacto {
@@ -411,24 +402,6 @@ div.chat {
   font-family: "Bruno Ace", cursive;
   font-size: 15px;
   color: rgba(105, 105, 105, 0.813);
-}
-
-/*estilos de enlace interno*/
-.inicio {
-  text-decoration: none;
-  color: rgba(105, 105, 105, 0.813);
-  font-family: "Bruno Ace", cursive;
-  text-align: right;
-  font-size: 20px;
-  padding-top: 20px;
-  animation-duration: 2s;
-  animation-name: aparecer;
-  animation-iteration-count: infinite;
-  padding: 10px;
-}
-.inicio:hover {
-  text-decoration: underline;
-  font-weight: bold;
 }
 
 #footer {
@@ -456,11 +429,18 @@ div.chat {
   color: gray;
   text-decoration: underline;
 }
-#footer .liFooter p, #footer .liMap p {
-  font-size: 8px;
+/*estilos de enlace interno*/
+.inicio {
+  text-decoration: none;
+  color: rgba(105, 105, 105, 0.813);
   font-family: "Bruno Ace", cursive;
-  padding: 5px;
-  color: antiquewhite;
+  text-align: right;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.inicio:hover {
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=estilos.css.map */

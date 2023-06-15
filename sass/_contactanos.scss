@@ -22,7 +22,7 @@
     }
     p{
         i{
-            font-size: 18px;
+            font-size: 20px;
         }
         a{
             text-decoration: none;
@@ -62,6 +62,11 @@
     .instagram{
         &:hover{
             color: #df8b42;
+            }
+    }
+    .twitter{
+        &:hover{
+            color: #14606f;
             }
     }
 } 

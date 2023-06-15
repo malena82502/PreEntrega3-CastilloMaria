@@ -61,7 +61,7 @@
         }
         i{ 
             color: #2d2b2b;
-            font-size: 18px;
+            font-size: 20px;
         }
     }
 }
@@ -90,6 +90,11 @@
         .instagram{
             &:hover{
                 color: #df8b42;
+                }
+        }
+        .twitter{
+            &:hover{
+                color: #30a3bb;
                 }
         }
 }
