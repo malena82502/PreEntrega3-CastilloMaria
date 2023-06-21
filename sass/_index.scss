@@ -134,12 +134,12 @@
     text-align: left;
     font-size: 50px;
     a{
-        color: rgb(179, 246, 111);
+        color: $colorFont1;
         margin-left: 10px;
     }
     .whatsapp{
         &:hover{
-            color: rgb(78, 112, 46);
+            color: rgb(177, 230, 124);
         }
     }
 }

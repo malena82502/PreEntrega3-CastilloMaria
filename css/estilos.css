@@ -180,11 +180,11 @@
   font-size: 50px;
 }
 .chat a {
-  color: rgb(179, 246, 111);
+  color: rgba(105, 105, 105, 0.813);
   margin-left: 10px;
 }
 .chat .whatsapp:hover {
-  color: rgb(78, 112, 46);
+  color: rgb(177, 230, 124);
 }
 
 div.chat {
