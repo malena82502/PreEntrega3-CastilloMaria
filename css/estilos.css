@@ -13,6 +13,11 @@
     text-align: center;
   }
 }
+@media screen and (min-width: 1000px) {
+  .navbar-brand {
+    display: none;
+  }
+}
 #titulo {
   color: #fff;
   text-align: center;
@@ -26,7 +31,7 @@
 
 .navbar-nav {
   padding: 10px 30px 10px 30px;
-  background-color: black;
+  background-color: rgb(39, 38, 38);
   display: flex;
   justify-content: space-evenly;
   width: 100%;
@@ -39,9 +44,19 @@
   color: antiquewhite;
 }
 
+.logoUchucuta {
+  height: 30%;
+  width: 30%;
+}
+
 @media screen and (max-width: 600px) {
   .contactoHome .email {
     font-size: 8px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  #parrafoHome p {
+    font-size: 18px;
   }
 }
 /*foto de portada*/
@@ -54,6 +69,7 @@
 .restaurant {
   height: 100%;
   width: 100%;
+  border-radius: 10px;
 }
 
 /*reseña y foto*/
@@ -76,6 +92,31 @@
 .peru {
   width: 100%;
   height: 100%;
+}
+
+/*horarios*/
+.horariosHome {
+  padding: 20px;
+  font-size: 15px;
+  font-family: "Bruno Ace", cursive;
+  color: rgba(105, 105, 105, 0.813);
+  text-align: center;
+}
+.horariosHome h2 {
+  font-size: 22px;
+}
+.horariosHome p i {
+  color: #2d2b2b;
+  font-size: 20px;
+}
+
+/*mapa*/
+.mapaHome {
+  text-align: center;
+  opacity: 0.8;
+}
+.mapaHome:hover {
+  opacity: 1.5;
 }
 
 /*contacto*/
@@ -112,6 +153,7 @@
 
 /*redes sociales*/
 .redesHome {
+  padding-top: 30px;
   font-family: "Bruno Ace", cursive;
   color: rgba(105, 105, 105, 0.813);
   font-size: 15px;
@@ -148,9 +190,26 @@
 div.chat {
   position: fixed;
   top: 50%;
+  z-index: 1;
+}
+
+/*button la carta*/
+#laCarta {
+  text-align: center;
+  padding: 20px;
+}
+#laCarta a {
+  font-size: large;
+  font-weight: bold;
+  font-family: "Bruno Ace", cursive;
 }
 
 /*párrafos y foto chef*/
+@media screen and (min-width: 1400px) {
+  #parrafo1SU p {
+    font-size: 25px;
+  }
+}
 #chef {
   padding: 5px;
   text-align: center;
@@ -159,6 +218,7 @@ div.chat {
 .chef {
   width: 100%;
   height: 100%;
+  border-radius: 10px;
 }
 
 #parrafo1SU {
@@ -205,6 +265,19 @@ div.chat {
   padding: 30px;
 }
 
+.video1, .video2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 1000px) {
+  .video1, .video2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
 @media screen and (min-width: 1200px) {
   #fotosCarousel {
     width: 60%;
@@ -255,7 +328,7 @@ div.chat {
   font-size: 13px;
 }
 
-/*boton reservar*/
+/*button reservar*/
 #reservar {
   text-align: center;
   padding: 20px;
@@ -268,7 +341,7 @@ div.chat {
 
 /*formulario*/
 #mainReservas {
-  background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/infobae/YF6MLVVKYNAODP25FDYGUFUUKA.png);
+  background-image: url(../img/fondoReservas.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 30px;
@@ -339,7 +412,7 @@ div.chat {
 }
 /*datos de contacto*/
 #mainContacto {
-  background-image: url(https://media.gettyimages.com/id/974561258/es/foto/majestic-mountain-landscape-machu-picchu-peru.jpg?s=612x612&w=0&k=20&c=Hla8E6jJNBl3D9XN13Xuzh0MgS1PbA0pTd-V9Nz13mI=);
+  background-image: url(../img/fondoContactanos.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -437,6 +510,7 @@ div.chat {
   text-align: center;
   padding: 5px;
   /*estilos de sitemap*/
+  /*redes sociales*/
 }
 #footer h3 {
   font-size: 18px;
@@ -446,7 +520,7 @@ div.chat {
 }
 #footer .liFooter a, #footer .liMap a {
   font-family: "Times New Roman", Times, serif;
-  font-size: 12px;
+  font-size: 15px;
   color: #fff;
   font-weight: bolder;
   text-decoration: none;
@@ -456,11 +530,28 @@ div.chat {
   color: gray;
   text-decoration: underline;
 }
-#footer .liFooter p, #footer .liMap p {
-  font-size: 8px;
-  font-family: "Bruno Ace", cursive;
-  padding: 5px;
-  color: antiquewhite;
+#footer .redesFooter {
+  padding-top: 5px;
+}
+#footer .redesFooter a {
+  font-size: 30px;
+  color: #fff;
+  margin-right: 15px;
+}
+#footer .redesFooter .faceFooter:hover {
+  color: rgb(109, 109, 255);
+}
+#footer .redesFooter .instaFooter:hover {
+  color: #df8b42;
+}
+#footer .redesFooter .twitFooter:hover {
+  color: #30a3bb;
+}
+
+/*logo*/
+.logoFooter {
+  height: 8%;
+  width: 8%;
 }
 
 /*# sourceMappingURL=estilos.css.map */

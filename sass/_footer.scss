@@ -28,7 +28,7 @@
         list-style: none;
         a{
             font-family: $fontProject2;
-            font-size: 12px;
+            font-size: 15px;
             color: #fff;
             font-weight: bolder;
             text-decoration: none;
@@ -43,4 +43,36 @@
     .liMap{
         @extend .liFooter;
     }
+    /*redes sociales*/
+    .redesFooter{
+        padding-top: 5px;
+            a{
+                font-size: 30px;
+                color: #fff;
+                margin-right: 15px;
+            }
+            .faceFooter{
+                &:hover{
+                    color: rgb(109, 109, 255);
+                    }
+            }
+            .instaFooter{
+                &:hover{
+                    color: #df8b42;
+                    }
+            }
+            .twitFooter{
+                &:hover{
+                    color: #30a3bb;
+                    }
+            }
+    }
 }
+/*logo*/
+.logoFooter{
+    height: 8%;
+    width: 8%;
+}
+
+
+

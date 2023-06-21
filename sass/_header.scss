@@ -12,6 +12,11 @@
         text-align: center;
     }
 }
+@media screen and (min-width: 1000px){
+    .navbar-brand{
+        display: none;
+    }
+}
 @mixin header{
     font-family: $fontProject;
     font-size: 22px;
@@ -27,7 +32,7 @@
 }
 .navbar-nav{
     padding: 10px 30px 10px 30px;
-    background-color: black;
+    background-color: rgb(39, 38, 38);
     display: flex;
     justify-content: space-evenly;
     width: 100%;
@@ -35,4 +40,8 @@
     a{
         color: $colorFont2;
     }
+}
+.logoUchucuta{
+    height: 30%;
+    width: 30%;
 }

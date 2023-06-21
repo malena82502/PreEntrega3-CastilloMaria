@@ -1,5 +1,12 @@
 @import "variables";
 /*párrafos y foto chef*/
+@media screen and (min-width: 1400px){
+    #parrafo1SU{
+        p{
+            font-size: 25px;
+        }
+    }
+}
 @mixin styleTextSU{
     font-family: $fontProject;
     text-align: center;
@@ -11,6 +18,7 @@
 .chef{
     width: 100%;
     height: 100%;
+    border-radius: 10px;
 }
 #parrafo1SU{
     font-size: 20px;
@@ -52,5 +60,28 @@
             color: $colorFont1;
             padding: 30px;
         }
+    }
 }
+.video1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
+.video2{
+    @extend .video1;
+}
+@media screen and (max-width: 1000px){
+    .video1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .video2{
+        @extend .video1;
+    }
+}
+
+
+
+
+
