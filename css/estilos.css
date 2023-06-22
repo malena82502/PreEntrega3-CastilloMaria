@@ -51,7 +51,7 @@
 
 @media screen and (max-width: 600px) {
   .contactoHome .email {
-    font-size: 8px;
+    font-size: 6px;
   }
 }
 @media screen and (min-width: 1500px) {
@@ -509,20 +509,19 @@ div.chat {
   background-image: url(../img/uchucuta.jpg);
   text-align: center;
   padding: 5px;
+  font-family: "Bruno Ace", cursive;
   /*estilos de sitemap*/
   /*redes sociales*/
 }
 #footer h3 {
-  font-size: 18px;
+  font-size: 20px;
 }
 #footer .liFooter, #footer .liMap {
   list-style: none;
 }
 #footer .liFooter a, #footer .liMap a {
-  font-family: "Times New Roman", Times, serif;
   font-size: 15px;
   color: #fff;
-  font-weight: bolder;
   text-decoration: none;
 }
 #footer .liFooter a:hover, #footer .liMap a:hover {
@@ -546,6 +545,9 @@ div.chat {
 }
 #footer .redesFooter .twitFooter:hover {
   color: #30a3bb;
+}
+#footer p {
+  font-size: 12px;
 }
 
 /*logo*/
