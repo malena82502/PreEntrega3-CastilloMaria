@@ -2,7 +2,7 @@
 @media screen and (max-width: 600px){
     .contactoHome{
         .email{
-            font-size: 6px;
+            font-size: 4px;
         }
     } 
 }
@@ -17,7 +17,6 @@
 #restaurant{
     padding: 10px;
     text-align: center;
-    opacity: 0.9;
 }
 .restaurant{
     height: 100%;
@@ -50,7 +49,7 @@
 }
 /*horarios*/
 .horariosHome{
-    padding: 15px;
+    padding: 5px;
     @include styleText();
     h2{
         font-size: 22px;
@@ -64,15 +63,16 @@
 }
 /*mapa*/
 .mapaHome{
+    padding-bottom: 40px;
     text-align: center;
     opacity: 0.8;
     &:hover{
-        opacity: 1.5;
+        opacity: 1.8;
     }
 }
 /*contacto*/
 .contactoHome{
-    padding: 15px;
+    padding: 5px;
     @include styleText();
     h2{
         font-size: 22px;
@@ -81,11 +81,8 @@
         a{
             text-decoration: none;
             color: $colorFont1;
-            font-size: 15px;
-            font-family: $fontProject;
             &:hover{
                 color: $colorFont1;
-                font-weight: bolder;
                 text-decoration: underline;
             }
         }
@@ -98,12 +95,13 @@
 .contactoHome{
     .email{
         font-family: $fontProject2;
-        font-size: 15px;
+        font-size: 16px;
     }
 }
 /*redes sociales*/
 .redesHome{
-    padding-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     font-family: $fontProject;
     color: $colorFont1;
     font-size: 15px;
@@ -134,7 +132,7 @@
     text-align: left;
     font-size: 50px;
     a{
-        color: $colorFont1;
+        color: $redesSociales;
         margin-left: 10px;
     }
     .whatsapp{

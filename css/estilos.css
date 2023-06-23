@@ -27,7 +27,7 @@
 
 .navbar-nav {
   padding: 10px 30px 10px 30px;
-  background-color: rgb(52, 51, 51);
+  background-color: rgb(48, 47, 47);
   display: flex;
   justify-content: space-evenly;
   width: 100%;
@@ -47,7 +47,7 @@
 
 @media screen and (max-width: 600px) {
   .contactoHome .email {
-    font-size: 6px;
+    font-size: 4px;
   }
 }
 @media screen and (min-width: 1500px) {
@@ -59,7 +59,6 @@
 #restaurant {
   padding: 10px;
   text-align: center;
-  opacity: 0.9;
 }
 
 .restaurant {
@@ -92,7 +91,7 @@
 
 /*horarios*/
 .horariosHome {
-  padding: 15px;
+  padding: 5px;
   font-size: 15px;
   font-family: "Bruno Ace", cursive;
   color: rgba(105, 105, 105, 0.813);
@@ -108,16 +107,17 @@
 
 /*mapa*/
 .mapaHome {
+  padding-bottom: 40px;
   text-align: center;
   opacity: 0.8;
 }
 .mapaHome:hover {
-  opacity: 1.5;
+  opacity: 1.8;
 }
 
 /*contacto*/
 .contactoHome {
-  padding: 15px;
+  padding: 5px;
   font-size: 15px;
   font-family: "Bruno Ace", cursive;
   color: rgba(105, 105, 105, 0.813);
@@ -129,12 +129,9 @@
 .contactoHome p a {
   text-decoration: none;
   color: rgba(105, 105, 105, 0.813);
-  font-size: 15px;
-  font-family: "Bruno Ace", cursive;
 }
 .contactoHome p a:hover {
   color: rgba(105, 105, 105, 0.813);
-  font-weight: bolder;
   text-decoration: underline;
 }
 .contactoHome p i {
@@ -144,12 +141,13 @@
 
 .contactoHome .email {
   font-family: "Times New Roman", Times, serif;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 /*redes sociales*/
 .redesHome {
-  padding-top: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   font-family: "Bruno Ace", cursive;
   color: rgba(105, 105, 105, 0.813);
   font-size: 15px;
@@ -176,7 +174,7 @@
   font-size: 50px;
 }
 .chat a {
-  color: rgba(105, 105, 105, 0.813);
+  color: #2d2b2b;
   margin-left: 10px;
 }
 .chat .whatsapp:hover {
@@ -408,7 +406,7 @@ div.chat {
 
 @media screen and (max-width: 480px) {
   .parrafoContacto .email {
-    font-size: 10px;
+    font-size: 13px;
   }
 }
 /*datos de contacto*/
@@ -419,13 +417,17 @@ div.chat {
 }
 
 .parrafoContacto {
+  padding-top: 50px;
+  padding-bottom: 50px;
   font-family: "Bruno Ace", cursive;
   color: antiquewhite;
   text-align: center;
-  padding: 50px;
 }
 .parrafoContacto h2 {
-  font-size: 25px;
+  font-size: 28px;
+}
+.parrafoContacto p {
+  font-size: 18px;
 }
 .parrafoContacto p i {
   font-size: 20px;
@@ -433,12 +435,11 @@ div.chat {
 .parrafoContacto p a {
   text-decoration: none;
   color: antiquewhite;
-  font-size: 15px;
+  font-size: 18px;
   font-family: "Bruno Ace", cursive;
 }
 .parrafoContacto p a:hover {
   color: gray;
-  font-weight: bolder;
   text-decoration: underline;
 }
 
