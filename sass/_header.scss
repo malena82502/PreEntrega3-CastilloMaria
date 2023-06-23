@@ -3,10 +3,6 @@
     margin: 0;
 }
 @import "variables";
-/*header{
-    position: sticky;
-    top: 0;
-}*/
 @media screen and (max-width: 1050px){
     .navbar-nav{
         text-align: center;
@@ -32,7 +28,7 @@
 }
 .navbar-nav{
     padding: 10px 30px 10px 30px;
-    background-color: rgb(39, 38, 38);
+    background-color: rgb(52, 51, 51);
     display: flex;
     justify-content: space-evenly;
     width: 100%;

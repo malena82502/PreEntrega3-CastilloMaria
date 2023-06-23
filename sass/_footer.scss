@@ -20,16 +20,18 @@
     color: #fff;
     background-image: url(../img/uchucuta.jpg);
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     font-family: $fontProject;
     h3{
         font-size: 20px;
+        margin-bottom: 20px;
     }
     .liFooter{
         list-style: none;
         a{
             font-size: 15px;
             color: #fff;
+            margin-bottom: 2px;
             text-decoration: none;
                 &:hover{
                     font-weight: bold;
@@ -69,11 +71,6 @@
     p{
         font-size: 12px;
     }
-}
-/*logo*/
-.logoFooter{
-    height: 8%;
-    width: 8%;
 }
 
 
