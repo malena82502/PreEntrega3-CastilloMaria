@@ -1,8 +1,8 @@
 @import "variables";
-@media screen and (max-width: 600px){
+@media screen and (max-width: 500px){
     .contactoHome{
         .email{
-            font-size: 4px;
+            font-size: 12px;
         }
     } 
 }
@@ -95,7 +95,6 @@
 .contactoHome{
     .email{
         font-family: $fontProject2;
-        font-size: 16px;
     }
 }
 /*redes sociales*/
